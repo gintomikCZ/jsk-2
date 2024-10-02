@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;;
+}
+
+/* body {
+  background: yellow;
+} */
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #cdcdcd;
+  /* overflow: hidden; !!! attention */
+  overflow: auto;
+  background: #efefef;
+  color: #222222;
+}
+
+.square-2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #cdcdcd;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+
+/* colors
+  - html color names
+  - hexadecimální kód #RRGGBB
+      #FF0000 - red
+      #00FF00 - green
+      #0000FF - blue
+      #FFFFFF - white
+      #000000 - black
+      rr=gg=bb .... odstín šedi
+      #fefefe
+      #efefef
+      #222222
+
+  - rgb(0, 0, 0) - black
+    rgb(255, 255, 255) - white
+
+  - rgba(0, 0, 0, opacity)
+    opacity - od 0 do 1 ... 1 - úplně neprůhledná, 0 - úplně průhledná
+
+  AA 3 - velký text, 4.5 - malý text
+  AAA 4.5 - velký text, 7 - malý text
+
+*/

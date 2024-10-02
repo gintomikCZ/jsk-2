@@ -1,0 +1,48 @@
+button {
+  background: white;
+  border: 1px solid #ababab;
+  font-size: 1.3rem;
+  padding: .4em .8em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: lightpink;
+}
+
+.my-input:focus {
+  background: lightblue;
+}
+
+ul {
+  width: 200px;
+  list-style-type: none;
+  border: 1px solid #ababab;
+  padding: 0;
+}
+/* li:last-child, li:first-child {
+  background: lightgreen;
+} */
+
+li:last-child {
+  border-bottom-style: none;
+}
+
+li {
+  padding: .35em .7em;
+  border-bottom: 1px solid red;
+}
+
+
+
+/* hover effect*/
+
+/* elementy za určitého stavu - pseudotřídy
+selector:hover
+
+pseudotřídy podle pořadí
+  :first-child ... vybere první dceřinný element uvnitř rodiče
+  :last-child ... vybere poslední dceřinný element uvnitř rodiče
+
+selector s pseudotřídou má větší specificitu
+*/

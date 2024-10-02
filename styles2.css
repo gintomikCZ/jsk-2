@@ -1,0 +1,37 @@
+
+/*
+  SPECIFICITY
+  1) * - vybere všechny elementy
+  2) tagName - vybere všechny tagy daného typu / jména
+  2) [attributName] - vybere všechny tagy, které mají daný atribut
+  3) .class - vybere elementy, které mají danou třídu
+  4) #id - vybere element s daným id (bad practice)
+  5) inline styles
+
+  vyšší specificity vyhrává
+
+*/
+
+* {
+  color: red;
+  font-size: 28px;
+}
+
+p {
+  color: green;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}
+
+#my-par {
+  color: violet;
+}
+#my-par2 {
+  color: violet;
+}

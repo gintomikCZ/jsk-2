@@ -1,0 +1,49 @@
+/* p {
+  color: red;
+  font-size: 20px;
+}
+
+button {
+  border: 4px solid black;
+} */
+
+* {
+  font-style: italic;
+}
+
+.text-red {
+  color: red;
+}
+.font-20 {
+  font-size: 20px;
+}
+
+#my-par {
+  color: blue;
+  font-size: 30px;
+}
+
+[type=number] {
+  background: lightpink;
+}
+
+/*
+comment
+*/
+
+/*
+  * - vybere všechny elementy
+  tagName - vybere všechny tagy daného typu / jména
+  [attributName] - vybere všechny tagy, které mají daný atribut
+  .class - vybere elementy, které mají danou třídu
+  #id - vybere element s daným id (bad practice)
+*/
+
+/*
+
+more then one word
+moreThenOneWord - camelCase
+more-then-one-word - kebab-case
+more_then_one_word - snake_case
+
+*/
